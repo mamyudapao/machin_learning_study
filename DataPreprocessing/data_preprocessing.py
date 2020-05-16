@@ -9,7 +9,6 @@ X = dataset.iloc[:,:-1].values#indexで指定
 y = dataset.iloc[:,-1].values
 print(X)
 print(y)
-print("######################")
 
 #Taking care of missing data
 from sklearn.impute import SimpleImputer #機械学習用ライブラリ, impute...欠損値を置き換えるため
